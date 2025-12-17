@@ -1,11 +1,6 @@
-body{
-    background-color: antiquewhite;
-
-}
-
-#tároló{
-    background-color: brown;
-    color: aqua;
+#tartalom {
+    background-color: black;
+    color: red;
     width: 80%;/* width mindig százalkosan add meg */
     max-width: 800px;
     margin: auto; /* a tároló a böngésző közepére kerül */
@@ -21,7 +16,22 @@ body{
     margin: 10px;
     border-radius: 5px;
 }
-#menu a:hover{
-    color: yellow;
-    background-color: orangered;
+
+h1 {
+    text-align: center;
+}
+
+h6 {
+    text-align: right;
+    border-top: 2px solid black;
+    padding-top: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+li {
+    margin: 5px 0;
 }
